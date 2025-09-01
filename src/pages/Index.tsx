@@ -326,7 +326,7 @@ const Index = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center">
                   <Icon name="Mail" size={14} className="mr-2" />
-                  hello@sanya.soul
+                  @paintion208
                 </li>
                 <li className="flex items-center">
                   <Icon name="Phone" size={14} className="mr-2" />
