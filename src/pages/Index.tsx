@@ -330,7 +330,9 @@ const Index = () => {
                 </li>
                 <li className="flex items-center">
                   <Icon name="Phone" size={14} className="mr-2" />
-                  +7 (999) 123-45-67
+                  <a href="tel:+79521426352" className="hover:text-primary transition-colors">
+                    +7 (952) 142-63-52
+                  </a>
                 </li>
                 <li className="flex items-center">
                   <Icon name="MessageCircle" size={14} className="mr-2" />
