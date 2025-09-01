@@ -272,9 +272,11 @@ const Index = () => {
                 <Icon name="Mail" size={20} className="mr-2" />
                 Связаться с нами
               </Button>
-              <Button variant="outline" size="lg">
-                <Icon name="MessageCircle" size={20} className="mr-2" />
-                Telegram
+              <Button variant="outline" size="lg" asChild>
+                <a href="https://t.me/prosto_sani13" target="_blank" rel="noopener noreferrer">
+                  <Icon name="MessageCircle" size={20} className="mr-2" />
+                  Telegram канал
+                </a>
               </Button>
             </div>
           </div>
@@ -332,7 +334,9 @@ const Index = () => {
                 </li>
                 <li className="flex items-center">
                   <Icon name="MessageCircle" size={14} className="mr-2" />
-                  @sanya_soul
+                  <a href="https://t.me/prosto_sani13" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                    @prosto_sani13
+                  </a>
                 </li>
               </ul>
             </div>
